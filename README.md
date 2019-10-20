@@ -1,5 +1,6 @@
 # Energy-Efficient-Smart-Home
-This is the source code used for Purdue ECE 568 course project in Spring 2019. The project is built on raspberry pi and sensors used are: Temp Sensor, PIR Motion Sensor and LDR sensor. We have also build an android app. The communication is done over internet using http post function in python http_server class. We use ngrok for tunneling. The http server is running on raspberry pi which listens to incoming requests on port 8000.
+
+The project demonstrates a connected smart home which enables remote control of home appliances and deploys energy saving techniques using the sensors installed at strategic locations throughout the home. This project is done as part of Purdue ECE 568 course in Spring 2019. The project is built on raspberry pi and sensors used are: Temp Sensor, PIR Motion Sensor and LDR sensor. We have also build an android app. The communication is done over internet using http post function in python http_server class. We use ngrok for tunneling. The http server is running on raspberry pi which listens to incoming requests on port 8000.
 Files:
 1. http_server.py: This file has all the code for server, sensors and timers. When run this would start an http server on rpi which listens to port 8000.
 
